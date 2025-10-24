@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Project%20Status-Completed-success)
+
+
 📊 **Vendor Performance Analysis**
 
 🧩 Project Overview
