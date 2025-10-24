@@ -61,11 +61,18 @@ Ideal for Data Analyst or Data Science roles.
 
 ⚡ Installation & Usage
 1. Clone the repository
-  - git clone https://github.com/sagar-suchak/vendor-performance-analysis.git
-cd vendor-performance-analysis
-2. Install dependencies
-  - pip install -r requirements.txt
+
+`git clone https://github.com/sagar-suchak/vendor-performance-analysis.git`
+
+`cd vendor-performance-analysis`
+
+3. Install dependencies
+
+`pip install -r requirements.txt`
+
 3. Run the pipeline
-  - python ingestion_db.py
-  - python get_vendor_summary.py
+
+`python ingestion_db.py`
+
+`python get_vendor_summary.py`
  
