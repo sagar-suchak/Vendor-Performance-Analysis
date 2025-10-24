@@ -1,4 +1,4 @@
-📊 Vendor Performance Analysis
+📊 **Vendor Performance Analysis**
 
 🧩 Project Overview
 The Vendor Performance Analysis project delivers actionable insights on vendor purchases, sales, and profitability using real transactional data in a SQLite database.
@@ -14,7 +14,7 @@ This project demonstrates strong proficiency in:
 
 Ideal for Data Analyst or Data Science roles.
 
-🚀 Approach
+🚀 **Approach**
 1. Data Ingestion
   - Raw vendor data (purchases, sales, invoices) is loaded into a SQLite database using a flexible Python pipeline (ingestion_db.py).
 
@@ -50,7 +50,7 @@ Ideal for Data Analyst or Data Science roles.
 | requirements.txt                 | Python dependencies                                 |
 
 
-🛠 Dependencies
+🛠 **Dependencies**
 
 - pandas
 - numpy
@@ -59,7 +59,7 @@ Ideal for Data Analyst or Data Science roles.
 - sqlalchemy
 - scipy
 
-⚡ Installation & Usage
+⚡ **Installation & Usage**
 1. Clone the repository
 
 `git clone https://github.com/sagar-suchak/vendor-performance-analysis.git`
@@ -75,4 +75,16 @@ Ideal for Data Analyst or Data Science roles.
 `python ingestion_db.py`
 
 `python get_vendor_summary.py`
+
+
+**Visualisation:**
+
+
+<img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/4026ec64-85f6-4d24-b2f3-1759436d550c" />
+
+
+<img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/657a7d1b-904c-4ae9-a4ea-0c7d9d5f2f14" />
+
+
+
  
