@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Databases & raw data
+*.db
+data/
+
+# Keep logs folder but ignore its contents
+logs/*
+!logs/.gitkeep
