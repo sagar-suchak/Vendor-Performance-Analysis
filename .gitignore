@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Databases and data files
+*.db
+data/
+real_data/
+*.csv
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE project files
+.vscode/
+.idea/
