@@ -9,9 +9,6 @@ __pycache__/
 # Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Logs
-logs/
-*.log
 
 # Databases and data files
 *.db
