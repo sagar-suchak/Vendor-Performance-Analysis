@@ -1,2 +1,71 @@
-# Vendor-Performance-Analysis
-Data-driven project for ingesting, cleaning, and analyzing vendor transactions with Python, SQL, and automated visualizations. Generates vendor-level profit metrics, Pareto analysis, and business insights using SQLite and Jupyter Notebook.
+📊 Vendor Performance Analysis
+
+🧩 Project Overview
+The Vendor Performance Analysis project delivers actionable insights on vendor purchases, sales, and profitability using real transactional data in a SQLite database.
+It automates raw data ingestion, cleansing, transformation, and builds vendor-level summaries with visual analytics (Pareto charts, profit metrics, and contribution analysis).
+
+This project demonstrates strong proficiency in:
+
+- Data wrangling & cleaning
+- SQL integration
+- Python automation
+- Feature engineering
+- Visual analytics with Matplotlib/Seaborn
+
+Ideal for Data Analyst or Data Science roles.
+
+🚀 Approach
+1. Data Ingestion
+  - Raw vendor data (purchases, sales, invoices) is loaded into a SQLite database using a flexible Python pipeline (ingestion_db.py).
+
+2. Data Transformation & Integration
+
+  - Utilizes SQL joins and aggregations across multiple tables (e.g., purchases, sales, vendor_invoice).
+  - Produces a cleaned, aggregated summary (vendor_sales_summary) via SQL queries (get_vendor_summary.py).
+
+3. Feature Engineering
+
+  - Handles missing values and standardizes columns.
+  - Calculates advanced metrics:
+    - Gross Profit
+    - Profit Margin (%)
+    - Stock Turnover (%)
+    - Sales-to-Purchase Ratio (%)
+    - Unit Purchase Price ($)
+    - Order Size(Small, Med, Large)
+    - Unsold Inventory Value ($)
+ 
+4. Exploratory Analysis & Visualization
+  - Jupyter notebook (vendor_performance_analysis.ipynb) demonstrates:
+    - Vendor-wise trends
+    - Top vendor contribution (Pareto analysis)
+    - Visual summaries (Matplotlib, Seaborn)
+   
+| File/Folder                      | Purpose                                          |
+|:---------------------------------|:----------------------------------------------------|
+| ingestion_db.py                  | Python script for loading raw CSVs into SQLite DB   |
+| get_vendor_summary.py            | Data cleaning, SQL summary, feature engineering     |
+| vendor_performance_analysis.ipynb| Main notebook for EDA, plots, and KPI analysis      |
+| README.md                        | Project overview, installation, instructions        |
+| requirements.txt                 | Python dependencies                                 |
+
+
+🛠 Dependencies
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- sqlalchemy
+- scipy
+
+⚡ Installation & Usage
+1. Clone the repository
+  - git clone https://github.com/sagar-suchak/vendor-performance-analysis.git
+cd vendor-performance-analysis
+2. Install dependencies
+  - pip install -r requirements.txt
+3. Run the pipeline
+  - python ingestion_db.py
+  - python get_vendor_summary.py
+ 
